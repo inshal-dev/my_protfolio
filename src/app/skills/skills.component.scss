@@ -1,0 +1,55 @@
+.card{
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2em;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(168, 167, 238, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+    height: 600px;
+    width: 1300px;
+    .card-title{
+        padding: 10px;
+        font-size: 40px;
+    }
+    .progress{
+        margin: 10px;
+        height: 35px;
+        border: none;
+        border-radius: 30px;
+        background-color: #4286f400;
+ //       background-image: linear-gradient(160deg, #0093E9 0%, #6ed6ff 100%);
+        box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.171);
+        
+        .progress-bar{
+            text-align: end;
+            border: none;
+            border-radius: 30px;
+            height: 33px;
+            background: linear-gradient(90deg, #0ACFFE 0%, #495AFF 100%);
+        }
+       
+    .card-text{
+        padding: 20px;
+        font-size: 22px;
+    }
+
+    }
+    .card-footer{
+        text-align: center;
+        border: none;
+        background: none;
+        .btn{
+            margin: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+}
+.mage{
+    height: 420px;
+    img{
+        width: auto;
+        height: 480px;
+    }
+}
