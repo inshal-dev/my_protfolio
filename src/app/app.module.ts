@@ -8,6 +8,10 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectComponent } from './project/project.component';
 import { HomeComponent } from './home/home.component';
 import { AcheivementsComponent } from './acheivements/acheivements.component';
+import { AngularFireModule } from '@angular/fire';
+import { environment } from 'src/environments/environment';
+//Hash Angular Common
+import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,9 +23,15 @@ import { AcheivementsComponent } from './acheivements/acheivements.component';
   ],
   imports: [
     BrowserModule,
+   AngularFireModule.initializeApp(environment.firebaseConfig),
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide : LocationStrategy , 
+      useClass: HashLocationStrategy
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -9,7 +9,6 @@
     height: 600px;
     width: 1300px;
     .card-title{
-        padding:10px ;
         font-size: 40px;
     }
     .text{
@@ -31,4 +30,34 @@
             font-weight: bold;
         }
     }
+}
+.data{
+    overflow: auto;
+    min-height: 460px;
+    max-height: 470px;
+}
+//work
+.cards{
+    border: .2px solid rgba(255, 255, 255, 0.356);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    .company{
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .position{
+        font-size: 24px;
+    }
+    .desc{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .card{
+        
+        height: auto;
+        width: auto;
+}
 }

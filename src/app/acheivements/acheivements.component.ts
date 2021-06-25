@@ -61,5 +61,9 @@ export class AcheivementsComponent implements OnInit {
  
 ]
 
+onAchieve = ()=>window.scroll(0, 600);
+  
+
+ onEvent = () => window.scroll(0, 5500); 
 
 }

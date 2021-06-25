@@ -10,14 +10,16 @@ body{
     background-size: 100% ;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    ::-webkit-scrollbar{
-        width: 10px;
-          background-color: rgba(0, 0, 0, 0);
-    }
-        ::-webkit-scrollbar-thumb{
-          border-radius: 20px;
-          background-color: rgb(9, 13, 70);
-          background: linear-gradient(85deg,#2b71f1de,#ffffffbd);
-         border-bottom: .3px solid rgb(94, 91, 255);
-        }
+  
 }
+
+*::-webkit-scrollbar{
+  width: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+  *::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: rgb(9, 13, 70);
+    background: linear-gradient(85deg,#085fffde,#ffffffbd);
+   border-bottom: .3px solid rgb(44, 41, 255);
+  }

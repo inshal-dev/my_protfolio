@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "inshal-sportfolio": {
+      "hosting": {
+        "portfolio": [
+          "inshal-sportfolio"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "inshal-sportfolio"
+  }
+}

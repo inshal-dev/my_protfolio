@@ -12,6 +12,9 @@
         padding: 10px;
         font-size: 40px;
     }
+    .row{
+        margin-top: -20px;
+    }
     .progress{
         margin: 10px;
         height: 35px;
@@ -27,7 +30,10 @@
             border-radius: 30px;
             height: 33px;
             background: linear-gradient(90deg, #0ACFFE 0%, #495AFF 100%);
+            animation: progressBar 3s ease-in-out;
+            animation-fill-mode:both;
         }
+       
        
     .card-text{
         padding: 20px;
@@ -47,9 +53,37 @@
     }
 }
 .mage{
-    height: 420px;
-    img{
-        width: auto;
-        height: 480px;
-    }
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+    img{
+       
+        width: auto;
+        height: 400px;
+    }
+
+//Logo animation      
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+//progress animation
+    @keyframes progressBar {
+        0% { width: 0; }
+    }
+
+    @media screen and (max-width:1000px) {
+        .card{
+            height: auto;
+            width: auto;
+    }
+    img{
+       
+        width: 300px;
+        height: auto;
+    }
+
+    }
