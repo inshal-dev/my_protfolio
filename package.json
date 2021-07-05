@@ -23,11 +23,12 @@
     "@fortawesome/fontawesome-free": "^5.15.3",
     "angular-glass": "^1.0.1",
     "bootstrap": "^5.0.2",
+    "file-saver": "^2.0.5",
+    "firebase": "^7.0 || ^8.0",
     "jquery": "^3.6.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
-    "zone.js": "~0.11.3",
-    "firebase": "^7.0 || ^8.0"
+    "zone.js": "~0.11.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1102.6",

@@ -57,6 +57,10 @@ export class AcheivementsComponent implements OnInit {
  {
    Name:'UI Design Challenge DocoNation',
    url: '../../assets/certificates/UI.jpg'
+ },
+ {
+   Name:'Virtual Hackathon- HackNation DocoNation',
+   url: '../../assets/certificates/Docogen.jpg'
  }
  
 ]

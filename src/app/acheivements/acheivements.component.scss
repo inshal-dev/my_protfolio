@@ -8,7 +8,10 @@
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
     height: 600px;
     width: 1300px;
-
+  .card-title{
+    padding: 10px;
+    font-size: 40px;
+  }
  
     //Logo animation      
     @keyframes floating {
@@ -80,7 +83,7 @@
 }
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1300px) {
     .card{
         height: auto;
         width: auto;
