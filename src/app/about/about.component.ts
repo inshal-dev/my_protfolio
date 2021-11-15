@@ -13,7 +13,7 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
   }
   downloadPdf() {
-    const pdfUrl = '../../assets/Mohammad-Resume.pdf';
+    const pdfUrl = '../../assets/insha;-resume.pdf';
     const pdfName = 'Mohammad-Inshal-Resume';
     FileSaver.saveAs(pdfUrl, pdfName);
   }
