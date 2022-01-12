@@ -21,6 +21,10 @@ export class AcheivementsComponent implements OnInit {
     url: '../../assets/certificates/Angular-Certificate-Coursera.jpg'
   },
   {
+    Name:'Foundation of User Experience (UX) Design',
+    url: '../../assets/certificates/UX-Foundation-Cousera.jpg'
+  },
+  {
     Name:'Getting Started with Python',
     url: '../../assets/certificates/Coursera.jpg'
   },

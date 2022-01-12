@@ -91,15 +91,21 @@
     <div class="card-body ">
         <h4 class="card-title">{{items.Name}}</h4>
         <div class="container">
-         <span> 
-           <img class="proImage" [src]="items.imageHome" alt="" width="400px" height="270px">
-           <img class="proImage" [src]="items.imageBoard" alt="" width="400px" height="270px">
-           <img class="proImage" [src]="items.imageEnd" alt="" width="400px" height="270px">
-         </span>
+          <div class="row">
+            <div class="col">
+              <img class="img-fluid proImage" [src]="items.image" alt="" >
+            </div>
+            <div class="col">
+              <div class="desc text-center">
+                {{items.desc}}
+              </div>
+            </div>
+          </div>
+           
+           <!-- <img class="img-fluid proImage" [src]="items.imageBoard" alt=""  height="270px">
+           <img class="img-fluid proImage" [src]="items.imageEnd" alt="" height="270px"> -->
         </div> 
-        <div class="desc text-center">
-          {{items.desc}}
-        </div>
+        
         </div>
 
     <div class="card-footer">

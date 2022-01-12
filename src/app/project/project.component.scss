@@ -41,7 +41,10 @@
     max-height: 400px;
   
 }
-
+.card-body{
+    padding: 10px;
+    margin: 10px;
+}
 
 .col-3{
     margin-left: 80px;
@@ -60,6 +63,7 @@
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
     height: 600px;
     width: 1300px;
+   
     .card-title{
         font-size: 40px;
     }
@@ -74,15 +78,20 @@
     }
     .proImage{
         margin: 5px;
+        width: 600px;
+        height: 400px;
     }
     .desc{
-        margin: 05px;
+        margin: 30px auto;
         padding: 10px;
         font-size: 22px;
     }
     .link-btn{
         font-size: 20px;
+        font-weight: bolder;
         margin: 10px;
+        background-color: rgb(0, 195, 255);
+        border-radius: 10px;
     }
     
 }

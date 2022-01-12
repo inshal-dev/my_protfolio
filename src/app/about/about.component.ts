@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 declare var require: any
 const FileSaver = require('file-saver');
 @Component({
@@ -8,7 +9,9 @@ const FileSaver = require('file-saver');
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private route: Router
+  ) { }
 
   ngOnInit(): void {
   }
@@ -16,5 +19,8 @@ export class AboutComponent implements OnInit {
     const pdfUrl = '../../assets/Inshal-Resume.pdf';
     const pdfName = 'Mohammad-Inshal-Resume';
     FileSaver.saveAs(pdfUrl, pdfName);
+  }
+  gotoProject(){
+    this.route.navigate(['/project'])
   }
 }
