@@ -16,7 +16,7 @@ export class ProjectComponent implements OnInit {
       // imageHome:'../../assets/pathodux.PNG',
       // imageBoard:'../../assets/basic1.png',
       // imageEnd:'../../assets/Idea Page.svg',
-      image: '../../assets/pathodux.svg',
+      image: '../../assets/Pathodux-home.svg',
       link:'https://pathodux.in/'
     },
     {
