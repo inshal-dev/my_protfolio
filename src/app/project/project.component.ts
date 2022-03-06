@@ -66,4 +66,7 @@ export class ProjectComponent implements OnInit {
 insta(){
   window.scroll(0, 5200)
 }
+dance(){
+  window.scroll(0, 7200)
+}
 }
