@@ -1,0 +1,11 @@
+.download{
+  position:fixed;
+  bottom: 2%;
+  right: 2%;
+  .download-btn{
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 153, 255);
+      border-radius: 20px;
+  }
+}
