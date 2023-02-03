@@ -12,6 +12,7 @@ import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
 //Hash Angular Common
 import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
+import { NavFooterComponent } from './nav-footer/nav-footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
     SkillsComponent,
     ProjectComponent,
     HomeComponent,
-    AcheivementsComponent
+    AcheivementsComponent,
+    NavFooterComponent
   ],
   imports: [
     BrowserModule,

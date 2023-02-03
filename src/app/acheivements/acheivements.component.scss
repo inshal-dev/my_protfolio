@@ -12,12 +12,12 @@
     padding: 10px;
     font-size: 40px;
   }
- 
-    //Logo animation      
+
+    //Logo animation
     @keyframes floating {
         0% { transform: translate(0,  0px); }
         50%  { transform: translate(0, 15px); }
-        100%   { transform: translate(0, -0px); }    
+        100%   { transform: translate(0, -0px); }
     }
     .select{
     animation-name: floating;
@@ -40,12 +40,7 @@
         text-align: center;
         border: none;
         background: none;
-        .btn-nav{
-            margin: 10px;
-            font-size: 20px;
-            font-weight: bold;
-            cursor: pointer;
-        }
+
     }
 }
 .row{
@@ -63,7 +58,7 @@
 .Course-Name{
     text-align: center;
     margin-top: 200px;
-    
+
     font-size: 30px;
     padding: 20px;
 }
@@ -96,8 +91,8 @@
     }
     .Course-Name{
         text-align: center;
-        margin-top: auto; 
-        font-size: medium; 
+        margin-top: auto;
+        font-size: medium;
     }
     .image{
         margin: auto;
