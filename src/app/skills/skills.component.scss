@@ -17,7 +17,7 @@
     }
     .progress{
         margin: 10px;
-        height: 35px;
+        height: 30px;
         border: none;
         border-radius: 30px;
         background-color: #4286f400;
@@ -28,7 +28,7 @@
             text-align: end;
             border: none;
             border-radius: 30px;
-            height: 33px;
+            height: 30px;
             background: linear-gradient(90deg, #0ACFFE 0%, #495AFF 100%);
             animation: progressBar 3s ease-in-out;
             animation-fill-mode:both;
@@ -37,7 +37,7 @@
 
     .card-text{
         padding: 20px;
-        font-size: 22px;
+        font-size: 18px;
     }
 
     }

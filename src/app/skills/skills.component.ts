@@ -25,6 +25,10 @@ export class SkillsComponent implements OnInit {
       'value': 40
     },
     {
+      'Name': 'Node.js (Express)',
+      'value': 70
+    },
+    {
       'Name': 'HTML',
       'value': 75
     },

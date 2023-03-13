@@ -25,6 +25,10 @@ export class AcheivementsComponent implements OnInit {
     url: '../../assets/certificates/UX-Foundation-Cousera.jpg'
   },
   {
+    Name:'Server-side Development with NodeJS, Express and MongoDB',
+    url: '../../assets/certificates/Node-Express-Mongo-Certificate-Coursera.jpg'
+  },
+  {
     Name:'Getting Started with Python',
     url: '../../assets/certificates/Coursera.jpg'
   },
@@ -39,7 +43,7 @@ export class AcheivementsComponent implements OnInit {
   {
     Name:'Python and Django Full-Stack Web Developer Bootcamp',
     url: '../../assets/certificates/Python-Django.jpg'
-  }, 
+  },
   {
     Name:'UI/UX Design Training ',
     url: '../../assets/certificates/UI_UX.jpg'
@@ -66,12 +70,12 @@ export class AcheivementsComponent implements OnInit {
    Name:'Virtual Hackathon- HackNation DocoNation',
    url: '../../assets/certificates/Docogen.jpg'
  }
- 
+
 ]
 
 onAchieve = ()=>window.scroll(0, 600);
-  
 
- onEvent = () => window.scroll(0, 5500); 
+
+ onEvent = () => window.scroll(0, 5500);
 
 }
